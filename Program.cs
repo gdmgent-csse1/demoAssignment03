@@ -57,8 +57,7 @@ namespace assignment_03_start
                         for (int j = 0; j < lengte; j++)
                         {
                             //97 122
-                            //int output = rnd.Next(97, 123);
-                            //secret += ;
+                            secret += Convert.ToChar(rnd.Next(97, 123));
                         }
                         WriteSecret(secret);
                         break;
